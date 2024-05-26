@@ -1,0 +1,181 @@
+<mvc:View
+    controllerName="inchcape.landingpage.controller.View1"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:f="sap.f"
+    xmlns:card="sap.f.cards"
+    xmlns:core="sap.ui.core"
+    xmlns:w="sap.ui.integration.widgets"
+    displayBlock="true"
+    height="100%"
+>
+    <!-- <l:HorizontalLayout class="sapUiContentPadding" >
+		<Card width="400px">
+			<header>
+				<CardHeader titleText="Parts Portal" subtitleText="Direct Reports">
+					<avatar>
+						<Icon name="group" />
+					</avatar>
+					<action>
+						<Link id="link1"  target="_blank" text="Click me" />
+					</action>
+				</CardHeader>
+			</header>
+			<List separators="None" style="width: 100%; margin-bottom: 0.75rem;">
+				<StandardListItem
+					description="User Researcher"
+					text="Disponibilidad y precios" />
+				<StandardListItem
+					description="Artist"
+					text="Order Follow up " />
+			</List>
+		</Card>
+        		<Card width="400px">
+			<header>
+				<CardHeader titleText="Parts Portal" subtitleText="Direct Reports">
+					<avatar>
+						<Icon name="group" />
+					</avatar>
+					<action>
+						<Link href="https://inchcape-latam-dp-bt-dev-ruo32ltv.cpp.cfapps.eu10.hana.ondemand.com/site/vh-mm-latam" target="_blank" text="Click me" />
+					</action>
+				</CardHeader>
+			</header>
+			<List separators="None" style="width: 100%; margin-bottom: 0.75rem;">
+				<StandardListItem
+					description="User Researcher"
+					text="Disponibilidad y precios" />
+				<StandardListItem
+					description="Artist"
+					text="Order Follow up " />
+			</List>
+		</Card>
+        <Card width="400px">
+			<header>
+				<CardHeader titleText="Parts Portal Dercolink" subtitleText="Direct Reports">
+					<avatar>
+						<Icon name="group" />
+					</avatar>
+					<action>
+						<Link href="https://inchcape-latam-dp-bt-dev-ruo32ltv.cpp.cfapps.eu10.hana.ondemand.com/site/vh-mm-latam" target="_blank" text="Click me" />
+					</action>
+				</CardHeader>
+			</header>
+			<List separators="None" style="width: 100%; margin-bottom: 0.75rem;">
+				<StandardListItem
+					description="User Researcher"
+					text="Disponibilidad y precios" />
+				<StandardListItem
+					description="Artist"
+					text="Order Follow up " />
+			</List>
+		</Card> -->
+
+    <!--  -->
+
+    <!-- <f:GridContainer
+        id="demoGrid"
+        width="100%"
+    > -->
+    <w:Card
+        id="_IDGenCard65"
+        class="sapUiSmallMarginBottom sapUiSmallMarginTop sapUiSmallMarginBegin sapUiSmallMarginEnd"
+        manifest="{manifests>/ImageIdentifyCard}"
+    >
+        <!-- <w:layoutData> -->
+        <!-- <f:GridContainerItemLayoutData
+                    id="_IDGenGridContainerItemLayoutData3"
+                    minRows="1"
+                    columns="1"
+                /> -->
+        <!-- </w:layoutData> -->
+    </w:Card>
+    <!-- </f:GridContainer> -->
+
+    <Title
+        id="_IDGenTitle1"
+        text="Dealers"
+        titleStyle="H2"
+        class="sapUiSmallMarginBottom sapUiSmallMarginTop sapUiSmallMarginBegin sapUiSmallMarginEnd"
+    />
+    <!-- <f:GridContainer
+        id="demoGrid"
+        class="sapUiSmallMargin"
+        columnsChange=".onGridColumnsChange"
+    >
+        <f:layout>
+            <f:GridContainerSettings
+                id="_IDGenGridContainerSettings1"
+                rowSize="84px"
+                columnSize="84px"
+                gap="8px"
+            />
+        </f:layout>
+        <f:layoutXS>
+            <f:GridContainerSettings
+                id="_IDGenGridContainerSettings2"
+                rowSize="70px"
+                columnSize="70px"
+                gap="8px"
+            />
+        </f:layoutXS>
+    </f:GridContainer> -->
+    <f:GridContainer
+        id="demoGridd"
+        class="sapUiSmallMarginBottom sapUiSmallMarginTop sapUiSmallMarginBegin sapUiSmallMarginEnd"
+        columnsChange=".onGridColumnsChange"
+    >
+        <w:Card
+            id="_IDGenCard1"
+            class="sapUiSmallMarginBottom sapUiSmallMarginTop sapUiSmallMarginBegin sapUiSmallMarginEnd"
+            manifest="{manifests>/ListDefaulMB}"
+        >
+            <w:layoutData>
+                <f:GridContainerItemLayoutData
+                    id="_IDGenGridContainerItemLayoutData2"
+                    minRows="3"
+                    columns="4"
+                />
+            </w:layoutData>
+        </w:Card>
+        <w:Card
+            id="_IDGenCard33"
+            manifest="{manifests>/AnalyticalCard}"
+            class="sapUiSmallMarginBottom sapUiSmallMarginTop sapUiSmallMarginBegin sapUiSmallMarginEnd"
+        >
+            <w:layoutData>
+                <f:GridContainerItemLayoutData
+                    id="_IDGenGridContainerItemLayoutData332"
+                    minRows="3"
+                    columns="4"
+                />
+            </w:layoutData>
+        </w:Card>
+        <w:Card
+            id="_IDGenCard3344"
+            class="sapUiSmallMarginBottom sapUiSmallMarginTop sapUiSmallMarginBegin sapUiSmallMarginEnd"
+            manifest="{manifests>/MazdaCard}"
+        >
+            <w:layoutData>
+                <f:GridContainerItemLayoutData
+                    id="_IDGenGridContainerItemLayoutData33442"
+                    minRows="3"
+                    columns="4"
+                />
+            </w:layoutData>
+        </w:Card>
+        <w:Card
+            id="_IDGenCard8"
+            class="sapUiSmallMarginBottom sapUiSmallMarginTop sapUiSmallMarginBegin sapUiSmallMarginEnd"
+            manifest="{manifests>/ListDefaultHeader}"
+        >
+            <w:layoutData>
+                <f:GridContainerItemLayoutData
+                    id="_IDGenGridContainerItemLayoutData9"
+                    minRows="3"
+                    columns="4"
+                />
+            </w:layoutData>
+        </w:Card>
+    </f:GridContainer>
+</mvc:View>
